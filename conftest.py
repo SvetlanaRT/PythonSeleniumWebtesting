@@ -4,7 +4,7 @@ from selenium import webdriver
 
 @pytest.fixture(scope="class")
 def setup(request):
-    driver = webdriver.Chrome(executable_path="C:\chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="path")
 
 #------------------------------Options for differentr URL-------------------------------------------------
     #driver.get("https://www.amazon.com/ref=nav_logo")  #FOR Amazon
