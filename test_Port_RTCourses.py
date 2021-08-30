@@ -15,8 +15,8 @@ class TestRTCourses(BaseClass):
         secondwind = driver.window_handles[1]
         driver.switch_to.window(secondwind)
         driver.implicitly_wait(5)
-        driver.find_element_by_xpath("//*[@id='mat-input-0']").send_keys("afedorovsky@gmail.com")
-        driver.find_element_by_xpath("//*[@id='mat-input-1']").send_keys("312814486")
+        driver.find_element_by_xpath("//*[@id='mat-input-0']").send_keys("examplr@gmail.com")
+        driver.find_element_by_xpath("//*[@id='mat-input-1']").send_keys("password")
         driver.find_element_by_xpath("//span[contains(text(),'Login')]").click()
         driver.maximize_window()
 

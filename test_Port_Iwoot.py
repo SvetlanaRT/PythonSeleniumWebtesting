@@ -16,8 +16,8 @@ class TestCoupon(BaseClass):
           wait=WebDriverWait(driver,30)
           act=ActionChains(driver)
 
-          username ="adlinsvetlana@gmail.com"
-          passw="My2021iwoot"
+          username ="example@gmail.com"
+          passw="password"
 
           #HANDLE POPUP
           driver.switch_to.window(driver.window_handles[-1])
